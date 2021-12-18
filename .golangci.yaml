@@ -1,0 +1,14 @@
+linters-settings:
+    gci:
+        local-prefixes: github.com/sagikazarmark/kube-curiesync-injector
+    goimports:
+        local-prefixes: github.com/sagikazarmark/kube-curiesync-injector
+    golint:
+        min-confidence: 0
+
+linters:
+    presets:
+        - bugs
+        - unused
+        - format
+        - import
